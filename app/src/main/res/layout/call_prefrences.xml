@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/notification">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Preferred Time to Receive Calls"
+                android:textColor="#4CAF50"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_10sdp"/>
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Any Day"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingTop="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="Between 9:00 AM to 08:30 PM"/>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Weekdays (Mon to Fri)"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingTop="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="Between 9:00 AM to 08:30 PM"/>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Weekends (Sat/Sun)"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingTop="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="Between 9:00 AM to 08:30 PM"/>
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+            <Switch
+                android:id="@+id/switch4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Only on Sunday"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingTop="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="Between 9:00 AM to 08:30 PM"/>
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Support Calls"
+                android:textColor="#4CAF50"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_10sdp"/>
+
+            <RadioGroup
+                android:id="@+id/radios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="fill"
+                android:inputType="text"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:paddingRight="@dimen/_9sdp"
+                    android:background="@color/white"
+                    android:button="@null"
+                    android:drawablePadding="30dp"
+                    android:drawableRight="@android:drawable/btn_radio"
+                    android:text="Daily"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15ssp"
+                    android:gravity="left"/>
+
+                <RadioButton
+                    android:id="@+id/radio_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:paddingRight="@dimen/_9sdp"
+                    android:background="@color/white"
+                    android:button="@null"
+                    android:drawablePadding="30dp"
+                    android:drawableRight="@android:drawable/btn_radio"
+                    android:text="Weekly"
+                    android:paddingLeft="@dimen/_7sdp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15ssp"
+                    android:gravity="left"/>
+
+                <RadioButton
+                    android:id="@+id/radio_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:paddingRight="@dimen/_9sdp"
+                    android:background="@color/white"
+                    android:button="@null"
+                    android:drawablePadding="30dp"
+                    android:drawableRight="@android:drawable/btn_radio"
+                    android:text="Every 15 Days"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15ssp"
+                    android:gravity="left"/>
+
+                <RadioButton
+                    android:id="@+id/radio_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:paddingRight="@dimen/_9sdp"
+                    android:background="@color/white"
+                    android:button="@null"
+                    android:drawablePadding="30dp"
+                    android:drawableRight="@android:drawable/btn_radio"
+                    android:text="Monthly"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15ssp"
+                    android:gravity="left"/>
+            </RadioGroup>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">IMI Application</string>
+    <string name="open_drawer_navigation">Navigation Drawer Open</string>
+    <string name="close_drawer_navigation">Navigation Drawer Close</string>
+    <string name="dashboard">dashboard</string>
+    <string name="DASHBOARD">DASHBOARD</string>
+    <string name="show_horoscope">Show Horoscope</string>
+    <string name="nbb12345">nbb12345</string>
+    <string name="premium_mem">premium_mem</string>
+    <string name="alok_giri">alok_giri</string>
+    <string name="yrs_5_4_hin">yrs_5_4_hin</string>
+    <string name="blocked_on_">blocked_on_</string>
+    <string name="premium_member">PREMIUM MEMBER</string>
+    <string name="we_have_services_all_over_india_book_your_appointments_with_salon_mandap_makeup_catering_clothing_shoppings_etc">We have services all over India. Book your appointments with Salon , Mandap, Makeup , Catering, Clothing shoppings etc.</string>
+    <string name="reach_us_at_9123456789">Reach us at : 9123456789</string>
+    <string name="upgrade_account">UPGRADE ACCOUNT</string>
+    <string name="email_imi_indianmatrimoni_com">Email : IMI@indianmatrimoni.com</string>
+    <string name="todo">TODO</string>
+    <string name="select_city">Select City</string>
+    <string name="matrimoni_id">Matrimoni ID *</string>
+
+    <string-array name="Settings">
+        <item>Notification Settings</item>
+        <item>Privacy Settings</item>
+        <item>Call Prefrences</item>
+        <item>Contact Settings</item>
+        <item>Profile Settings</item>
+        <item>Account Settings</item>
+
+    </string-array>
+</resources>

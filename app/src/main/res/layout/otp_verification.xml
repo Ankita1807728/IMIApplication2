@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify Your Mobile Number"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:paddingTop="@dimen/_20sdp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_enter_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_otp1"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/ic_otp_icon"
+        android:gravity="center"
+        android:includeFontPadding="true"
+        android:inputType="number"
+        android:maxLength="1"
+        android:nextFocusRight="@+id/et_Otp2"
+        android:nextFocusForward="@id/et_otp2"
+        android:orientation="vertical"
+        android:textSize="@dimen/_20ssp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_otp2"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/ic_otp_icon"
+        android:gravity="center"
+        android:includeFontPadding="true"
+        android:inputType="number"
+        android:maxLength="1"
+        android:nextFocusRight="@+id/et_Otp3"
+        android:nextFocusForward="@id/et_otp3"
+        android:orientation="vertical"
+        android:textSize="@dimen/_20ssp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_otp3"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/ic_otp_icon"
+        android:gravity="center"
+        android:includeFontPadding="true"
+        android:inputType="number"
+        android:maxLength="1"
+        android:nextFocusRight="@+id/et_Otp4"
+        android:nextFocusForward="@id/et_otp4"
+        android:orientation="vertical"
+        android:textSize="@dimen/_20ssp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_otp4"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/ic_otp_icon"
+        android:gravity="center"
+        android:includeFontPadding="true"
+        android:inputType="number"
+        android:maxLength="1"
+        android:orientation="vertical"
+        android:textSize="@dimen/_20ssp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to resend OTP"
+        android:gravity="center"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_50sdp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white">
+
+        <item
+            android:id="@+id/offer"
+            android:enabled="true"
+            android:title="Offers" />
+
+        <item
+            android:id="@+id/mail"
+            android:enabled="true"
+            android:title="Mailbox"/>
+
+        <item
+            android:id="@+id/notification"
+            android:enabled="true"
+            android:title="Notifications"/>
+
+        <item
+            android:id="@+id/match"
+            android:enabled="true"
+            android:title="Matches"/>
+
+        <item
+            android:id="@+id/chat"
+            android:enabled="true"
+            android:title="Chat"/>
+
+
+        <item
+            android:id="@+id/search"
+            android:enabled="true"
+            android:title="Search"/>
+
+        <group android:checkableBehavior="single">
+        <group
+            android:id="@+id/nav_g1">
+
+        <item
+            android:id="@+id/profile"
+            android:enabled="true"
+            android:title="My Profile"/>
+
+        <item
+            android:id="@+id/partner"
+            android:enabled="true"
+            android:title="Add/Edit partner Prefrences"/>
+
+        </group>
+        </group>
+
+        <item
+            android:id="@+id/setting"
+            android:enabled="true"
+            android:title="Settings"/>
+
+        <item
+            android:id="@+id/help"
+            android:enabled="true"
+            android:title="Help and Support"/>
+
+        <item
+            android:id="@+id/chat_us"
+            android:enabled="true"
+            android:title="Chat with Us"/>
+
+        <item
+            android:id="@+id/email"
+            android:enabled="true"
+            android:title="Email us"/>
+
+        <group android:checkableBehavior="single">
+        <group
+            android:id="@+id/nav_g2">
+
+        <item
+            android:id="@+id/wedding"
+            android:enabled="true"
+            android:title="Wedding Services"/>
+        </group>
+        </group>
+
+        <group android:checkableBehavior="single">
+        <group
+            android:id="@+id/nav_g3">
+
+        <item
+            android:id="@+id/success"
+            android:enabled="true"
+            android:title="Success Stories"/>
+        </group>
+        </group>
+    </menu>

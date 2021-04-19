@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="dashboard">dashboard
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #383838
+        </item>
+    </style>
+
+    <style name="nbb12345">nbb12345</style>
+
+    <style name="premium_mem">premium_mem</style>
+
+    <style name="alok_giri">alok_giri</style>
+
+    <style name="yrs_5_4_hin">yrs_5_4_hin</style>
+
+    <style name="blocked_on_">blocked_on_</style>
+
+</resources>

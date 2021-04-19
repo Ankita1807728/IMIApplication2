@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/notification">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manage Activity"
+                android:textColor="#50A605"
+                android:textStyle="normal"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_10sdp"
+                android:text="Turning off following items will stop notifying member activities to you"/>
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Number Views"
+                android:textColor="#383838"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:text="When members view your number"/>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Requests"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="When members request for your information"/>
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shortlists"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="When members shortlist you"/>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+            <Switch
+                android:id="@+id/switch4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chat"
+                android:paddingTop="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="When members are online and initiate chat"/>
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+            <Switch
+                android:id="@+id/switch5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile Views"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:id="@+id/profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="When members view your profile"/>
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:context=".MainActivity"
+            tools:showIn="@layout/activity_main">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/toolbar_color_gradient"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:layout_constraintTop_toTopOf="parent"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+            <!--            <include layout="@layout/appbar"></include>-->
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/maincontainer"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toTopOf="@+id/bottom"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar"
+                tools:context=".MainActivity">
+
+                <TextView
+                    android:id="@+id/dashboard"
+                    android:layout_width="@dimen/_104sdp"
+                    android:layout_height="@dimen/_22sdp"
+                    android:layout_marginTop="@dimen/_45sdp"
+                    android:fontFamily="@font/nunito_sans_semibold"
+                    android:text="@string/DASHBOARD"
+                    android:textAppearance="@style/dashboard"
+                    android:visibility="gone"
+                    tools:ignore="MissingConstraints" />
+
+                <FrameLayout
+                    android:id="@+id/fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </FrameLayout>
+                <!-- <ExpandableListView
+                    android:id="@+id/lvExp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:groupIndicator="@drawable/ic_ellipse_1__1_" />-->
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:menu="@menu/bottom_navigation" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginLeft="-65dp"
+            android:layout_marginRight="-65dp"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/header"
+            app:menu="@menu/navigation_drawer" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

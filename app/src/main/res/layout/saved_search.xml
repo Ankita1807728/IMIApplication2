@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/matrimoni_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/matrimoni_id"
+        android:textStyle="normal"
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_bar"
+        android:hint="Enter Mantrimoni ID (Ex: D1234567)"
+        android:textColor="@color/black"
+        android:textColorHint="#E7E7E7"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_184sdp"
+        android:src="@drawable/banner"
+        android:layout_marginTop="@dimen/_100sdp"/>
+
+
+</LinearLayout>

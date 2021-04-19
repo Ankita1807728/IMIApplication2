@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/privacy">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show Mobile Number to"
+                android:textColor="#4CAF50"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"/>
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All paid members"
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profiles whom I contacted "
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profiles interests I accepted "
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/switch4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hide my phone number"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textColor="@color/black"
+                />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"
+                android:paddingBottom="@dimen/_15sdp"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show Horoscope to"
+                android:textColor="#4CAF50"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingTop="@dimen/_15sdp"/>
+
+            <Switch
+                android:id="@+id/switch1_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All paid members"
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/switch1_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profiles whom I contacted "
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/switch1_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profiles interests I accepted "
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/switch1_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hide my Horoscope"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textColor="@color/black"/>
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"
+                android:paddingBottom="@dimen/_15sdp"/>
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show Profile Photos to"
+                android:textColor="#4CAF50"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingTop="@dimen/_15sdp"/>
+
+            <Switch
+                android:id="@+id/switch2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All Paid/Free members"
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/switch2_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All Paid members"
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+            <Switch
+                android:id="@+id/switch2_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profiles whom I contacted "
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/switch2_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profiles interests I accepted "
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/switch2_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hide my Profile Photos"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textColor="@color/black"/>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="@color/black"
+                android:paddingBottom="@dimen/_15sdp"/>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show Video to"
+                android:textColor="#4CAF50"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingTop="@dimen/_15sdp"/>
+
+            <Switch
+                android:id="@+id/switch3_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All Paid members"
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/switch3_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profiles whom I contacted "
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/switch3_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profiles interests I accepted "
+                android:textColor="@color/black"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/switch3_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hide My Profile Video"
+                android:paddingBottom="@dimen/_15sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    </ScrollView>
+

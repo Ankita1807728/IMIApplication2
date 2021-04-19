@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="@dimen/_96sdp"
+        android:layout_height="@dimen/_96sdp"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:src="@drawable/user_profile"
+        app:layout_constraintEnd_toStartOf="@+id/tvUsrID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUsrID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/_10sdp"
+        android:text="NBB12345"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/tvPremiumMember"
+        app:layout_constraintStart_toEndOf="@+id/ivImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPremiumMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_30sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:text="@string/premium_member"
+        android:textColor="#2196F3"
+        app:layout_constraintStart_toEndOf="@+id/tvUsrID"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <View android:id="@+id/view"
+        android:background="@color/black"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_1sdp"
+        app:layout_constraintStart_toEndOf="@+id/ivImage"
+        app:layout_constraintTop_toBottomOf="@+id/tvPremiumMember"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/UserName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TANUJA"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/ivImage"
+        app:layout_constraintTop_toBottomOf="@+id/tvPremiumMember"
+        />
+
+    <TextView
+        android:id="@+id/UserProfile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="27 yrs, 5’4- Hindu, Hindi, Brahmin, MCA, Software Engineer Bangalore, Karnataka, India"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/ivImage"
+        app:layout_constraintTop_toBottomOf="@+id/UserName"
+        android:paddingLeft="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/blockedDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Last Online : 15 DEC 2018"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/ivImage"
+        app:layout_constraintTop_toBottomOf="@+id/UserProfile"
+        android:paddingLeft="@dimen/_10sdp"/>
+
+
+    <TextView
+        android:id="@+id/complete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Profile Completeness 25%"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/ivImage"
+        app:layout_constraintStart_toStartOf="parent"
+        android:paddingLeft="@dimen/_5sdp"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

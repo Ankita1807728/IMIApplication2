@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Privacy Policy"
+        android:textColor="#50A605"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indianmatrimoni is the India’s Largest Matrimoni site provider of online match making services to users in India and Indians across the world through its Website and Mobile apps."
+        android:textColor="#383838"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Matrimoni User"
+        android:textColor="#383838"
+        android:paddingLeft="@dimen/_10sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indianmatrimoni is the India’s Largest Matrimoni site provider of online match making services to users in India and Indians across the world through its Website and Mobile apps."
+        android:textColor="#383838"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions"
+        android:textColor="#50A605"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indianmatrimoni is the India’s Largest Matrimoni site provider of online match making services to users in India and Indians across the world through its Website and Mobile apps."
+        android:textColor="#383838"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"/>
+</LinearLayout>
